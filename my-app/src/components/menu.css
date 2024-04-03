@@ -1,0 +1,19 @@
+#navbar{
+    position:fixed;
+    display:flex;
+    justify-content:flex-end;
+    gap:50px; 
+    top:0;
+    left:0;
+    width:100%;
+    background-color:#2E1114;
+  }
+  #navbar a{
+    text-decoration:none;
+    cursor:pointer;
+    color:#ADADAD;
+    font-size:1.5em;
+    padding:10px;
+    margin:10px;
+  }
+  
