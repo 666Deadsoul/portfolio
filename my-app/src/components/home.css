@@ -1,0 +1,11 @@
+#welcome-section{
+    margin-top:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:100vh;
+    justify-content:center;
+    background-color:#2E1114;
+    /* color:#7395AE; */
+    color:#ADADAD;
+  }
