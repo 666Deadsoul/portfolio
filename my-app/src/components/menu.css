@@ -6,12 +6,12 @@
     top:0;
     left:0;
     width:100%;
-    background-color:#2E1114;
+    background-color:white;
   }
   #navbar a{
     text-decoration:none;
     cursor:pointer;
-    color:#ADADAD;
+    color:black;
     font-size:1.5em;
     padding:10px;
     margin:10px;

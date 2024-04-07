@@ -1,0 +1,26 @@
+#projects{
+    /* border-top:2px solid white; */
+    background-color:white;
+    height:80vh;
+    color:black;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    justify-content:center;
+    align-items:center;
+  }
+  #proj_grid{
+    display:grid;
+    grid-template-columns:100px 100px;
+    gap:50px;
+  }
+  .project-tile{
+    text-decoration:none;
+    cursor:pointer;
+    width:100px;
+    height:50px;
+    border:2px solid #ADADAD;
+    color:black;
+  }
+  
