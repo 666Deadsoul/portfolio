@@ -1,0 +1,20 @@
+@font-face{
+    font-family:'Karla';
+    src: url('D:\portfolio\my-app\public\Karla-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family:'Inconsolata';
+    src: url('D:\portfolio\my-app\public\Inconsolata-VariableFont_wdth,wght.ttf');
+}
+@font-face {
+    font-family:'PixelifySans';
+    src: url('D:\portfolio\my-app\public\PixelifySans-VariableFont_wght.ttf');
+}
+:root{
+    --primary-color: #ffffff;
+    --secondary-color: #e8e8e8;
+    --third-color:black;
+    --main-font:'Karla', sans-serif;
+    --secondary-font: 'Inconsolata', sans-serif;
+    --third-font: 'PixelifySans', sans-serif;
+}
