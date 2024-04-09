@@ -14,7 +14,7 @@ const Home=()=>{
               <p>Hello! I am Sarina Maharjan. A student and a passionate Frontend Developer.😁</p>
           </div>
           <div className="Smedia">
-            <a href="#"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="https://github.com/666Deadsoul"><FontAwesomeIcon icon={faGithub} /></a>
             <a href="https://www.linkedin.com/in/sarina-maharjan-b29609244/"><FontAwesomeIcon icon={faLinkedin} /></a>
           </div>
         </div>
