@@ -15,13 +15,13 @@
   gap: 20px;
   background-color: var(--primary-color);
   color: var(--third-color);
-  font-family: var(--main-font);
   padding: 20px;
 }
 
 #me_section p {
-  width:500px;
+  width:600px;
   font-size: 1.5em;
+  font-family: var(--secondary-font);
 }
 
 #ani_text {
@@ -46,6 +46,10 @@
   font-size: 3em;
   display: flex;
   gap: 30px;
+}
+.Smedia a{
+  text-decoration: none;
+  color:var(--third-color);
 }
 
 @keyframes slideIn {
