@@ -12,7 +12,7 @@
   flex-direction: column;
   text-align: left;
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
   background-color: var(--primary-color);
   color: var(--third-color);
   padding: 20px;
@@ -50,6 +50,13 @@
 .Smedia a{
   text-decoration: none;
   color:var(--third-color);
+  transform: translate(50%, 50%);
+  transition: 1s;
+}
+.Smedia a:hover {
+  /* transform: translate(25px, -5px); */
+  transform: translate(25px, -5px);
+
 }
 
 @keyframes slideIn {
@@ -73,6 +80,7 @@
   align-items: center;
   gap:20px;
   padding:10px;
+  margin-top:20px;
 }
 .ts_ic{
   display:flex;
