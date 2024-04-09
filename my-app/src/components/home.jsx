@@ -2,7 +2,7 @@ import React from "react";
 import './home.css';
 import './style.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGithub, faLinkedin, faHtml5, faCss3, faJs, faReact, faFigma } from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faLinkedin, faHtml5, faCss3Alt, faJs, faReact, faFigma } from '@fortawesome/free-brands-svg-icons';
 import Profile from '../images/profile.jpg';
 
 const Home=()=>{
@@ -19,11 +19,11 @@ const Home=()=>{
           </div>
           <div id="tech_stack">
               <div className="ts">
-                <h2>Tech Stack</h2>
+                <h2>Tech Stack :</h2>
               </div>
               <div className="ts_ic">
                 <FontAwesomeIcon icon={faHtml5} />
-                <FontAwesomeIcon icon={faCss3} />
+                <FontAwesomeIcon icon={faCss3Alt} />
                 <FontAwesomeIcon icon={faJs} />
                 <FontAwesomeIcon icon={faReact} />
                 <FontAwesomeIcon icon={faFigma} />

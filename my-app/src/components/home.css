@@ -66,5 +66,17 @@
 
 #ani_text {
   display: inline-block;
-  animation: slideIn 1s ease forwards;
+  animation: slideIn 2s ease forwards;
+}
+#tech_stack{
+  display: flex;
+  align-items: center;
+  gap:20px;
+  padding:10px;
+}
+.ts_ic{
+  display:flex;
+  gap:20px;
+  font-size: 3em;
+
 }
