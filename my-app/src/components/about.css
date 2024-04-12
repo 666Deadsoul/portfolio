@@ -16,6 +16,7 @@
   #detail p{
     text-align:justify;
     letter-spacing:1px;
+    width:500px;
   }
   #detail button{
     border:none;
