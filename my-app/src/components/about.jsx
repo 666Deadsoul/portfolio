@@ -1,20 +1,25 @@
 import React from "react";
 import './about.css';
+import Av from '../images/s_av.png';
 
 const About=()=>{
     return(
-        <div id="about">
+        <div id="main_ab">
+            <div id="about">
+        <div className="av">
+            <img src={Av} id="S_av"/>
+        </div>
             <div id="detail">
-            <h1>ME</h1>
+            <h1>About Me</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Hi, I am Sarina Maharjan, currently a student and my specific interest lies in Frontend Development as well as UI/UX Designing.
+            I am a proactive person with a genuine eagerness to learn and expand my knowledge. 
             </p>
             <button>Download Resume</button>
             </div>
-            <div id="profile">
-            <img src="https://clipart-library.com/data_images/6103.png" id="pp"/>
-            </div>
       </div>
+        </div>
+        
     );
 }
 export default About;
