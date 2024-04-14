@@ -39,7 +39,6 @@
   height: 500px;
   border-radius: 40px;
   border: 1px solid var(--third-color);
-  mix-blend-mode: multiply;
 }
 
 .Smedia {
