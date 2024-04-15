@@ -16,6 +16,10 @@ const Project=()=>{
               <div className="proj_desc">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum aliquid placeat doloribus itaque vero dolore asperiores assumenda!</p>
               </div>
+              <div className="proj_tech">
+                <h3>Tech:  <span>HTML, CSS, JS, React</span></h3>
+               
+              </div>
             </div>
             <div className="project_card">
               <div className="proj_img">

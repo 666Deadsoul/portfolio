@@ -12,6 +12,7 @@
   }
   #projects h1{
     font-size: 2.5em;
+    font-family: var(--main-font);
   }
   #proj_grid{
     padding:30px;
@@ -35,4 +36,17 @@
     border:1px solid var(--secondary-color);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .proj_title h3{
+    font-family: var(--main-font);
+  }
+  .proj_desc p{
+    font-family: var(--secondary-font);
+  }
+  .proj_tech h3{
+    font-family: var(--main-font);
+  }
+  .proj_tech span{
+    font-weight: normal;
+    font-family: var(--secondary-font);
   }
