@@ -18,7 +18,6 @@ const Project=()=>{
               </div>
               <div className="proj_tech">
                 <h3>Tech:  <span>HTML, CSS, JS, React</span></h3>
-               
               </div>
             </div>
             <div className="project_card">
