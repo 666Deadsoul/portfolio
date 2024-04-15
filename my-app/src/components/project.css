@@ -8,23 +8,28 @@
     gap:20px;
     justify-content:center;
     align-items:center;
-    margin:20px;
+    margin:30px;
   }
   #proj_grid{
+    padding:30px;
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap:20px;
+    border:1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:30px;
   }
  
   .proj_img img{
-    width:100px;
+    width:250px;
+    border-radius: 10px;
   }
   
   .project_card{
     padding:20px;
     margin:10px;
-    width:200px;
-    border:1px solid var(--third-color);
+    width:300px;
+    border:1px solid var(--secondary-color);
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
