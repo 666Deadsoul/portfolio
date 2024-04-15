@@ -1,7 +1,6 @@
 #projects{
     /* border-top:2px solid white; */
     background-color:white;
-    height:80vh;
     color:black;
     text-align:center;
     display:flex;
@@ -9,18 +8,23 @@
     gap:20px;
     justify-content:center;
     align-items:center;
+    margin:20px;
   }
   #proj_grid{
     display:grid;
-    grid-template-columns:100px 100px;
-    gap:50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
   }
-  .project-tile{
-    text-decoration:none;
-    cursor:pointer;
+ 
+  .proj_img img{
     width:100px;
-    height:50px;
-    border:2px solid #ADADAD;
-    color:black;
   }
   
+  .project_card{
+    padding:20px;
+    margin:10px;
+    width:200px;
+    border:1px solid var(--third-color);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
