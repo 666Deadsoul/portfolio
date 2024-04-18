@@ -34,3 +34,58 @@
     font-size: 1.6em;
     text-transform: uppercase;
   }
+  #checkbtn{
+    display: none;
+}
+.check-logo{
+    font-size: 25px;
+    color: var(--third-color);
+    padding:20px;
+    cursor:pointer;
+    display: none;
+    margin:10px;
+}
+@media screen and (max-width: 1080px) {
+  #navbar{
+    justify-content:space-evenly;
+  }
+  #navbar a{
+    font-size:1.2em;
+    padding:10px;
+    margin:5px;
+  }
+}
+@media (max-width:490px){
+  .check-logo{
+      display: block;
+      position: absolute;
+      left:10px;
+  }
+  #m_items{
+      position: fixed;
+      width:35%;
+      height:100vh;
+      background-color: var(--secondary-color);
+      top:85px;
+      transition: all .5s;
+      left: -100%;
+  }
+  #navbar a{
+    padding:15px;
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+      font-size: 1.5em;
+  }
+  #checkbtn{
+      padding: 10px;
+  }
+  #checkbtn:checked ~ #m_items{
+      left:0;
+  }
+  #logo{
+      padding:5px 5px;
+      width:100px;
+      height:30px;
+  }
+}
