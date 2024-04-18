@@ -153,19 +153,23 @@
   }
 
   #ani_text {
-    font-size: 3em;
-  }
-
-  #me_section p {
-    width: 400px;
-  }
-
-  .ts_ic {
-    display: flex;
-    gap: 20px;
     font-size: 2em;
   }
 
+  #me_section p {
+    width: auto;
+  }
+  #welcome-section {
+    text-align: center;
+  }
+  .ts_ic {
+    display: flex;
+    gap: 20px;
+    font-size: 1.2em;
+  }
+  .ts h2{
+    font-size: 1em;
+  }
   .Smedia {
     font-size: 2em;
     display: flex;

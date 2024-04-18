@@ -19,7 +19,7 @@ const Home=()=>{
           </div>
           <div id="tech_stack">
               <div className="ts">
-                <h2>Tech Stack :</h2>
+                <h2>Tech Stack</h2>
               </div>
               <div className="ts_ic">
                 <FontAwesomeIcon icon={faHtml5} />
