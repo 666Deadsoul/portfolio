@@ -30,6 +30,7 @@
   }
   
   .project_card{
+    cursor: pointer;
     padding:20px;
     margin:10px;
     width:300px;
