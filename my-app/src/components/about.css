@@ -49,6 +49,7 @@
 #S_av {
   margin-top: 20px;
   width: 250px;
+  margin-left: 30px;
 }
 
 #detail button {
@@ -98,11 +99,17 @@
   #S_av {
     margin-top: 5px;
     width: 150px;
+   
   }
 }
 
 
 @media screen and (min-width: 480px) and (max-width: 670px) {
+  #main_ab {
+    height:auto;
+    padding: 20px;
+    margin:10px;
+  }
   #about {
     width: 400px;
     gap: 30px;
@@ -114,6 +121,7 @@
   #detail {
     padding: 5px;
     width: auto;
+    text-align: center;
   }
 
   #detail p {
@@ -124,14 +132,17 @@
     width: 300px;
     font-family: var(--secondary-font);
   }
+  #navbar #logo{
+    font-size: 1.3em;
+  }
 
 }
 
 @media (max-width: 480px) {
   #main_ab {
     height:auto;
-    margin-top: 10px;
-  
+    padding: 20px;
+    margin:10px;
   }
   #about {
     width: 400px;
@@ -144,6 +155,7 @@
   #detail {
     padding: 5px;
     width: auto;
+    text-align: center;
   }
 
   #detail p {
