@@ -55,10 +55,20 @@
     #proj_grid{
       grid-template-columns: repeat(2, 1fr);
     }
+    
   }
 
   @media screen and (min-width: 1210px) {
     #proj_grid{
       grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (max-width: 480px) {
+    .project_card{
+      width:250px;
+    }
+    #proj_grid{
+      padding:20px;
+      margin:20px;
     }
   }
