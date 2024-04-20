@@ -119,6 +119,9 @@
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
+  #Profile {
+    margin-top: 65px; 
+  }
   #ppic {
     height: 400px;
   }
@@ -128,7 +131,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    height: 100vh;
+    height: auto;
     padding: 20px;
   }
 
@@ -136,16 +139,21 @@
     font-size: 3em;
   }
 
+  #me_section p {
+    width: auto;
+  }
+  #welcome-section {
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
-    #Profile {
-      margin-top: 20px; /* Add margin to separate from the menu */
-    }
-  #ppic {
-    height: 400px;
+  #Profile {
+    margin-top: 65px; 
   }
-
+  #ppic {
+    height: 300px;
+  }
   .Home_section {
     display: flex;
     justify-content: center;

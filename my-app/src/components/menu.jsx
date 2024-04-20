@@ -14,7 +14,7 @@ const Menu=()=>{
           <p id="logo">Sarina.io</p>
         </div>
         <div id="m_items">
-          <a href="#welcome-section">Home</a>
+          <a href=".Home_section">Home</a>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
