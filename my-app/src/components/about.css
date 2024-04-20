@@ -128,6 +128,11 @@
 }
 
 @media (max-width: 480px) {
+  #main_ab {
+    height:auto;
+    margin-top: 10px;
+  
+  }
   #about {
     width: 400px;
     gap: 30px;
