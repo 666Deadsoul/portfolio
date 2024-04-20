@@ -139,6 +139,9 @@
 }
 
 @media (max-width: 480px) {
+    #Profile {
+      margin-top: 20px; /* Add margin to separate from the menu */
+    }
   #ppic {
     height: 400px;
   }
@@ -148,7 +151,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    height: 100vh;
+    height: auto;
     padding: 20px;
   }
 

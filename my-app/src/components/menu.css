@@ -1,5 +1,5 @@
 #navbar{
-    position:fixed;
+    position:sticky;
     display:flex;
     justify-content:space-around;
     align-items: center;
