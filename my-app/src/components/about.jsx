@@ -4,8 +4,9 @@ import Av from '../images/s_av.png';
 
 const About=()=>{
     return(
+        <section id="about">
         <div id="main_ab">
-            <div id="about">
+            <div id="about_sec">
                 <div className="av">
                     <img src={Av} id="S_av"/>
                 </div>
@@ -19,6 +20,8 @@ const About=()=>{
                 </div>
             </div>
         </div>
+        </section>
+        
         
     );
 }

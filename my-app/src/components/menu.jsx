@@ -2,9 +2,11 @@ import React from "react";
 import './menu.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
-
+import {HashLink as Link} from "react-router-hash-link";
+import { BrowserRouter } from "react-router-dom";
 const Menu=()=>{
     return(
+      <BrowserRouter>
         <div id="navbar">
         <input type="checkbox" id="checkbtn"/>
             <label htmlFor="checkbtn" className="check-logo">
@@ -14,13 +16,14 @@ const Menu=()=>{
           <p id="logo">Sarina.io</p>
         </div>
         <div id="m_items">
-          <a href=".Home_section">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <Link to="#home" smooth>Home</Link>
+          <Link to="#about" smooth>About</Link>
+          <Link to="#project" smooth>Projects</Link>
+          <Link to="#contact" smooth>Contact</Link>
         </div>
         
       </div>
+      </BrowserRouter>
     );
 }
 export default Menu;

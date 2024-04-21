@@ -6,7 +6,8 @@ import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 const Contact =()=>{
     return(
-        <div id="contact">
+        <section id="contact">
+         <div id="contact_sec">
             <h1>Contact Me 👇</h1>
             <div id="cLinks">
                 <div className="li">
@@ -18,6 +19,8 @@ const Contact =()=>{
             </div>
            
         </div>
+        </section>
+       
     );
 }
 export default Contact; 

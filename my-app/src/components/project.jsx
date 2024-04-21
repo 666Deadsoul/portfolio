@@ -3,7 +3,8 @@ import './project.css';
 
 const Project=()=>{
     return(
-        <div id="projects">
+      <section id="project">
+       <div id="projects">
           <h1>Projects</h1>
           <div id="proj_grid">
             <div className="project_card">
@@ -50,6 +51,8 @@ const Project=()=>{
             </div>
           </div>
       </div>
+      </section>
+       
     );
 }
 export default Project;

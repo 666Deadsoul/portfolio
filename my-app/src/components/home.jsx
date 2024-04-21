@@ -7,7 +7,8 @@ import Profile from '../images/profile.jpg';
 
 const Home=()=>{
     return(
-      <div className="Home_section">
+      <section id="home">
+        <div className="Home_section">
          <div id="welcome-section">
           <div id="me_section">
               <span id="ani_text">I am a Front-End Developer.</span>
@@ -34,7 +35,7 @@ const Home=()=>{
         <img src={Profile} id="ppic"/>
         </div>
       </div>
-     
+      </section>
     );
 }
 export default Home;
