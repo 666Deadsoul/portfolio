@@ -13,7 +13,7 @@ const Menu=()=>{
             <FontAwesomeIcon icon={faBars} />
             </label>
         <div>
-          <p id="logo">Sarina.io</p>
+          <p id="logo">Sarina.tech</p>
         </div>
         <div id="m_items">
           <Link to="#home" smooth>Home</Link>
