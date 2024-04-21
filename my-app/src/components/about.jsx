@@ -1,7 +1,7 @@
 import React from "react";
 import './about.css';
 import Av from '../images/s_av.png';
-
+import Resume from '../images/SarinaMaharjan.pdf';
 const About=()=>{
     return(
         <section id="about">
@@ -16,7 +16,7 @@ const About=()=>{
                     Hi, I am Sarina Maharjan, currently a student and my specific interest lies in Frontend Development as well as UI/UX Designing.
                     I am a proactive person with a genuine eagerness to learn and expand my knowledge. 
                     </p>
-                    <button>Download Resume</button>
+                    <a href={Resume} download="Resume"><button>Download Resume</button></a>
                 </div>
             </div>
         </div>
