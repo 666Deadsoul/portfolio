@@ -1,14 +1,14 @@
 @font-face{
     font-family:'Karla';
-    src: url('D:\portfolio\my-app\public\Karla-VariableFont_wght.ttf');
+    src: url('D:\portfolio\public\Karla-VariableFont_wght.ttf');
 }
 @font-face {
     font-family:'Inconsolata';
-    src: url('D:\portfolio\my-app\public\Inconsolata-VariableFont_wdth,wght.ttf');
+    src: url('D:\portfolio\public\Inconsolata-VariableFont_wdth,wght.ttf');
 }
 @font-face {
     font-family:'PixelifySans';
-    src: url('D:\portfolio\my-app\public\PixelifySans-VariableFont_wght.ttf');
+    src: url('D:\portfolio\public\PixelifySans-VariableFont_wght.ttf');
 }
 :root{
     --primary-color: #ffffff;
