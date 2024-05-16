@@ -1,14 +1,17 @@
 @font-face{
     font-family:'Karla';
-    src: url('D:\portfolio\public\Karla.ttf');
+    /* src: url('D:\portfolio\public\Karla.ttf'); */
+    src:url('/public/Karla.ttf') format('truetype');
 }
 @font-face {
     font-family:'Inconsolata';
-    src: url('D:\portfolio\public\Inconsolata.ttf');
+    /* src: url('D:\portfolio\public\Inconsolata.ttf'); */
+    src:url('/public/Inconsolata.ttf') format('truetype');
 }
 @font-face {
     font-family:'PixelifySans';
-    src: url('D:\portfolio\public\Pixelify.ttf');
+    /* src: url('D:\portfolio\public\Pixelify.ttf'); */
+    src:url('/public/Pixelify.ttf') format('truetype');
 }
 :root{
     --primary-color: #ffffff;
