@@ -15,10 +15,10 @@ const Project=()=>{
                 <h3>Speedy</h3>
               </div>
               <div className="proj_desc">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum aliquid placeat doloribus itaque vero dolore asperiores assumenda!</p>
+                <p>Speedy is a typing speed calculating system which calculates users typing capacity. It allows user to store as well as download their results.</p>
               </div>
               <div className="proj_tech">
-                <h3>Tech:  <span>HTML, CSS, JS, React</span></h3>
+                <h3>Tech:  <span>HTML, CSS, JS, Php, MySQL</span></h3>
               </div>
             </div>
             <div className="project_card">
