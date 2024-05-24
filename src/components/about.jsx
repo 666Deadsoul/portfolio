@@ -1,6 +1,6 @@
 import React from "react";
 import './about.css';
-import Av from '../images/s_av.png';
+import Av from '../images/s_p.png';
 import Resume from '../images/resume.pdf';
 const About=()=>{
     return(
