@@ -5,6 +5,7 @@ import Home from './components/home';
 import About from './components/about';
 import Project from './components/project';
 import Contact from './components/contact';
+import Skills from './components/skills';
 import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Menu/>
     <Home/>
     <About/>
+    <Skills/>
     <Project/>
     <Contact/>
    </>

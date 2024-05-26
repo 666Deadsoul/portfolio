@@ -6,9 +6,10 @@
   justify-content: center;
   background-color: var(--secondary-color);
   color: var(--third-color);
-  padding: 20px;
-  gap: 5px;
+  padding:50px 0px;
+  gap: 10px;
   text-align: center;
+  border-top: #dddddd solid 1px;
 }
 
 #contact_sec h1 {

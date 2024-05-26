@@ -1,0 +1,12 @@
+#skills{
+    width:100%;
+    background-color: var(--primary-color);
+    text-align: center;
+  }
+  #skills ol{
+    display: flex;
+    flex-direction: row;
+    gap:2px;
+    justify-content: space-around;
+    height: 200px;
+  }

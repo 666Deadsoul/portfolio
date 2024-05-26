@@ -20,26 +20,42 @@ const About=()=>{
                     <a href={Resume} download="SarinaMaharjan"><button>Download Resume</button></a>
                 </div>
             </div>
-            <div id="ab_next">
-                <div id="skills">
-                <h3>My Skills</h3>
-                    <ol>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JS</li>
-                        <li>React</li>
-                        <li>Figma</li>
-                    </ol>
-                </div>
-                <div id="services">
+            <div id="services">
                 <h3>Services</h3>
-                    <ol>
-                        <li>Web Development</li>
-                        <li>UI/UX Design</li>
-                        <li>Single Page Application</li>
-                        <li>API Integration</li>
-                    </ol>
+                <div id="service_section">
+                    <div class="card">
+                        <h3>Web Development</h3>
+                        <p>
+                        I offer comprehensive web development services by providing 
+                        user-friendly websites that leave a lasting impression.
+                        </p>
+                    </div>
+                    <div class="card">
+               
+                        <h3>UI/UX Design</h3>
+                        <p>
+                            Purchase a new new keyboard for smooth typing.
+                            Start by typing slowly to avoid mistakes.
+                        </p>
+                    </div>
+                    <div class="card">
+                       
+                        <h3>Single Page Application</h3>
+                        <p>
+                            Purchase a new new keyboard for smooth typing.
+                            Start by typing slowly to avoid mistakes.
+                        </p>
+                    </div>
+                     <div class="card">
+                       
+                        <h3>API Integration</h3>
+                        <p>
+                            Purchase a new new keyboard for smooth typing.
+                            Start by typing slowly to avoid mistakes.
+                        </p>
+                    </div>
                 </div>
+    
             </div>
         </div>
         </section>
