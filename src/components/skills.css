@@ -9,6 +9,7 @@
 .Skills h1{
     font-family:var(--secondary-font);
     font-weight: 600;
+    font-size: 3em;
 }
 .container{
     padding:50px;
