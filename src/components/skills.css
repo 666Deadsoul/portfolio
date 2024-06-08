@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:30px;
+    padding:100px 30px;
     margin:5px;
 }
 .container{
@@ -19,8 +19,8 @@
     height: 150px;
     position: relative;
     border-radius:50% ;
-    color: black;
-    background:black linear-gradient(to right,transparent 50%, var(--clr) 0);
+    color: var(--third-color);
+    background:gray linear-gradient(to right,transparent 50%, var(--clr) 0);
 }
 .container .progress h3 {
     position: absolute;
@@ -60,11 +60,11 @@
     position: absolute;
     inset: 10px;
     border-radius: 50%;
-    background-color:white;
+    background-color:var(--primary-color);
 }
 
 .container .progress.less::before{
-    background-color: gray;
+    background-color:  gray;
     transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
 }
 
