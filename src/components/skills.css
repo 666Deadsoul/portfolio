@@ -1,12 +1,70 @@
-#skills{
-    width:100%;
-    background-color: var(--primary-color);
-    text-align: center;
-  }
-  #skills ol{
+.Skills{
     display: flex;
-    flex-direction: row;
-    gap:2px;
-    justify-content: space-around;
-    height: 200px;
-  }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    margin:5px;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:40px;
+}
+.container .progress{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius:50% ;
+    color: black;
+    background:black linear-gradient(to right,transparent 50%, var(--clr) 0);
+}
+.container .progress h3 {
+    position: absolute;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 2em;
+    z-index: 1;
+    font-weight: 500;
+}
+.container .progress h3 span{
+    font-size: 0.65em;
+    font-weight: 400;
+}
+.container .progress h4{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container .progress::before{
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+    background-color: var(--clr);
+    transform: rotate(calc(((var(--i) - 50) * 0.01turn)));
+}
+.container .progress::after{
+    content: '';
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background-color:white;
+}
+
+.container .progress.less::before{
+    background-color: gray;
+    transform: rotate(calc(((var(--i) - 0) * 0.01turn)));
+}
+
