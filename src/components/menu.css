@@ -46,7 +46,7 @@
     display: none;
     margin:10px;
 }
-@media screen and (max-width: 1080px) {
+@media screen and (min-width: 490px) and (max-width: 1080px) {
   #navbar{
     justify-content:space-evenly;
   }
@@ -87,6 +87,5 @@
   #logo{
       padding:5px 5px;
       width:100px;
-      height:30px;
   }
 }
