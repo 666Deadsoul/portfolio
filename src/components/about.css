@@ -5,6 +5,7 @@
 }
 #about h1{
   text-align: center;
+  font-family: var(--main-font);
 }
 #main_ab {
   display: flex;
@@ -15,7 +16,7 @@
 }
 
 #about_sec {
-  width: 900px;
+  width: 800px;
   display: flex;
   gap: 50px;
   justify-content: flex-start;
@@ -39,10 +40,9 @@
 #detail p {
   font-size: 1.2em;
   text-align: left;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height: 1.3em;
   width: 500px;
-  font-family: var(--secondary-font);
 }
 #main_ab {
   height:auto;
@@ -71,7 +71,6 @@
   width: 300px;
   font-family: var(--secondary-font);
 }
-
 
 .av {
   border: 1px solid var(--third-color);
@@ -108,6 +107,14 @@
   text-align: center;
   background-color: var(--primary-color);
   padding:10px;
+  margin:10px;
+}
+#services h3{
+  font-family: var(--secondary-font);
+  font-size: 1.4em;
+}
+#services p{
+  font-family: var(--main-font);
 }
 #service_section{
   display:grid;
@@ -150,18 +157,8 @@ p {
   #detail p {
     line-height: 1.1em;
     width: 350px;
+    letter-spacing: 0.5px;
   }
-
-  /* .av {
-    width: 00px;
-    height: 200px;
-  } */
-
-  /* #S_av {
-    margin-top: 5px;
-    width: 150px;
-   
-  } */
 }
 
 
@@ -188,13 +185,17 @@ p {
   #detail p {
     font-size: 1.2em;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 1.3em;
     width: 300px;
-    font-family: var(--secondary-font);
+  font-family: var(--main-font);
   }
   #navbar #logo{
     font-size: 1.3em;
+  }
+  #service_section .card p{
+    display: none;
+
   }
 
 }
@@ -206,7 +207,7 @@ p {
     margin:10px;
   }
   #about_sec {
-    width: 400px;
+    width: 300px;
     gap: 30px;
     flex-direction: column;
     padding: 10px;
@@ -222,10 +223,10 @@ p {
   #detail p {
     font-size: 1.2em;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 1.3em;
     width: 300px;
-    font-family: var(--secondary-font);
+    font-family: var(--main-font);
   }
   #about_sec {
     width: 300px;
@@ -233,6 +234,10 @@ p {
   #service_section .card p{
     display: none;
 
+  }
+
+  #service_section{
+    grid-template-columns: none;
   }
 
 }
