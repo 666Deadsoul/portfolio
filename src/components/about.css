@@ -134,15 +134,17 @@ p {
 @media screen and (max-width: 1000px) {
 
   #main_ab {
-    height: 70vh;
+    /* height: 70vh; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-color);
+    gap:30px;
   }
 
   #about_sec {
-    width: 600px;
+    width: 400px;
   }
 
   #detail p {
@@ -150,16 +152,16 @@ p {
     width: 350px;
   }
 
-  .av {
-    width: 200px;
+  /* .av {
+    width: 00px;
     height: 200px;
-  }
+  } */
 
-  #S_av {
+  /* #S_av {
     margin-top: 5px;
     width: 150px;
    
-  }
+  } */
 }
 
 
@@ -224,6 +226,13 @@ p {
     line-height: 1.3em;
     width: 300px;
     font-family: var(--secondary-font);
+  }
+  #about_sec {
+    width: 300px;
+  }
+  #service_section .card p{
+    display: none;
+
   }
 
 }
