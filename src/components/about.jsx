@@ -1,7 +1,7 @@
 import React from "react";
 import './about.css';
 import Av from '../images/s_p.png';
-import Resume from '../images/resume.pdf';
+import Resume from '../images/Sarina-Maharjan-Resume.pdf';
 const About=()=>{
     return(
         <section id="about">
